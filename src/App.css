@@ -1,0 +1,43 @@
+main{
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1{
+  color: #253b60;
+}
+
+.lista-ogloszen{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+.karta{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  word-spacing: 1px;
+}
+.karta:hover {
+  background-color: gainsboro;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.karta h2{
+  margin-top: 0;
+}
+.karta p{
+  color: #475555;
+}
+@media (max-width:600px){
+  .lista-ogloszen{
+    grid-template-columns: 1fr;
+  }
+}
