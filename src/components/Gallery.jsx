@@ -13,7 +13,7 @@ function Galeria() {
     return (
         <div id="imgContainer" style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
             {images.map((image, index)=>(
-            <img src={image} key={index} height={imageSizes[index].y} width={imageSizes[index].x} style={{borderRadius: "5px", flexBasis: "30%", boxShadow: "10px 10px 5px lightblue"}}/>
+            <img src={image} key={index} height={imageSizes[index].y} width={imageSizes[index].x} style={{borderRadius: "10%", flexBasis: "30%", boxShadow: "10px 10px 5px lightblue"}}/>
             ))}
         </div>
     )
